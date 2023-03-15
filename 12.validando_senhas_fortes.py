@@ -1,6 +1,6 @@
 import re
 
-regex = re.compile(r"((?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[ -\/:-@['{}^[;_~]).{12})", flags=re.M)
+regex = re.compile(r"((?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[ -\/:-@['{}^[;_~]).{12,})", flags=re.M)
 
 test_str = ("\n\n"
 	"v2Ts7<o9T~}Y\n"
